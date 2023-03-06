@@ -1,0 +1,41 @@
+.header{
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: purple;
+  padding: 13px;
+}
+
+.project {
+  font-size: 25px;
+}
+
+.main{
+  padding: 13px;
+  margin: 13px;
+  align-items: center;
+  text-align: center;
+}
+
+.main img{
+  width: 100%;
+}
+.form-input{
+  margin: 13px;
+  justify-content: space-between;
+  width: 25%;
+  text-align: center;
+  padding: 1% 10%;
+}
+.button {
+  cursor: pointer;
+  font-size: 13px;
+  padding: 13px;
+  width: 100%;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+img{
+  width: 500px;
+}
