@@ -1,24 +1,18 @@
+import React from "react";
 import "./App.css";
 import Header from "./head";
 import Main from "./main";
 import Footer from "./footer";
 import maindata from "./maindata";
 import Exercise from "./exercise";
+import DarkMode from "./darkmode";
 
-function App() {
-  let isDarkmode = true;
-
-  function toggle() {
-    isDarkmode = !isDarkmode;
-  }
-
-  const styles = {
-    backgroundColor: isDarkmode ? "black" : "white",
-  };
+function App(p) {
 
   return (
-    <div style={styles} className="App">
+    <div style={DarkMode.darkmode} className="App">
       <Header />
+      <DarkMode/>
       <Main />
       {/* <Exercise /> */}
     </div>
